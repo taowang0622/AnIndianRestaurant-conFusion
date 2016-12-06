@@ -1,0 +1,23 @@
+{
+  "name": "node-express",
+  "version": "0.0.0",
+  "description": "express",
+  "main": "server-1.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "TaoWang",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "~4.14.0",
+    "express-session": "^1.14.2",
+    "jsonwebtoken": "^7.1.9",
+    "morgan": "^1.7.0",
+    "session-file-store": "^1.0.0"
+  }
+}
