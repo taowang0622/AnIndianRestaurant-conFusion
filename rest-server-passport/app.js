@@ -6,7 +6,6 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var passport = require('passport');
-var LocalStrategy = require('passport-local').Strategy; //LocalStrategy is a constructor function object!
 
 //file-based modules
 var index = require('./routes/index');
@@ -14,6 +13,7 @@ var users = require('./routes/users');
 var dishRouter = require('./routes/dishRouter');
 var promoRouter = require('./routes/promoRouter');
 var leaderRouter = require('./routes/leaderRouter');
+var favoritesRouter = require('./routes/favoritesRouter');
 var config = require('./config');
 
 var app = express();
@@ -38,21 +38,29 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../conFusion-Angular'))); //Angular Client!!!!!!!!!!!!!
 
 //passport config
-var User = require('./models/user');
-app.use(passport.initialize()); //??????
-// use static authenticate method of model in LocalStrategy
-passport.use(new LocalStrategy(User.authenticate()));
-// use static serialize and deserialize of model for passport session support
-passport.serializeUser(User.serializeUser());  //in order for persistent sessions to work!!!!
-passport.deserializeUser(User.deserializeUser());
+app.use(passport.initialize());
+var authenticate = require('./authenticate');
+
+//Secure traffic only
+//app.all will match all REST methods!!!!!
+//'*' will match all urls
+app.all('*', function (req, res, next) {
+    console.log('req start: ', req.secure, req.hostname, req.url, app.get('port'));
+    if(req.secure)    //http=====>req.secure=false    https=====>req.secure=true
+        return next();
+
+    res.redirect('https://' + req.hostname + ':' + app.get('secPort') + req.url); //Note that req.url does not include schema and hostname and port!!!!
+});
 
 app.use('/', index);
 app.use('/users', users);
 app.use('/dishes', dishRouter);
 app.use('/promotions', promoRouter);
 app.use('/leadership', leaderRouter);
+app.use('/favorites', favoritesRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
