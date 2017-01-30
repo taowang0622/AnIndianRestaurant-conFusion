@@ -20,9 +20,9 @@ var commentSchema = new Schema({
         type: String,
         required: true
     },
-    author: {
-        type: String,
-        required: true
+    postedBy: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref:'User' //ODM===>Model represents collection
     }
 }, {timestamps: true}); //The comment date can be generated automatically, no need to do that manually
 
@@ -51,6 +51,10 @@ var dishSchema = new Schema({
     description: {
         type: String,
         required: true
+    },
+    featured: {
+        type: Boolean,
+        default: false
     },
     comments: [commentSchema]    //It is not required!!!!!!!!!
 }, {timestamps: true});

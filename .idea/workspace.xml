@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc1463ff-4d36-4592-8e12-578595aecd6c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/.idea/basic-auth.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/.idea/watcherTasks.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/public/aboutus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/server-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/server-3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/sessions/p3p6AH65Ab6w_sHQvCS7h24P6vtHqsHc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/sessions/q4r-6saZC1XxS4xoU29VNWHPiEfK-LSE.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-auth/sessions/qjMR-Y03KdOZ65_-OX0-9pd_n-6JOjYF.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/client/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/common/models/comments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/common/models/comments.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/common/models/customer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/common/models/customer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/common/models/dishes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/common/models/dishes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/server/boot/authentication.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/server/boot/root.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/server/boot/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/server/component-config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/server/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/server/datasources.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/server/middleware.development.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/server/middleware.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/server/model-config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loopback-server/server/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-examples/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-examples/.idea/node-examples.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-examples/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-examples/rectangle-1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-examples/rectangle-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-examples/simplerect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-examples/solve-1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-examples/solve-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-examples/solve-3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-examples/test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/.idea/node-express-gen.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/bin/www" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/public/aboutus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/public/stylesheets/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/routes/dishRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/routes/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/routes/leaderRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/routes/promoRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/routes/users.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/views/error.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/views/index.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express-gen/views/layout.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/.idea/node-http.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/.idea/watcherTasks.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/dishRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/leaderRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/peer2/dishRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/peer2/leaderRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/peer2/promoRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/peer2/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/peer3/dishRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/peer3/leaderRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/peer3/promoRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/peer3/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/promoRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/public/aboutus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/server-1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/server-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/server-3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/server-4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-express/serverForAssignment1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-http/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-http/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-http/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-http/.idea/node-http.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-http/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-http/public/aboutus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-http/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-http/server-1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-http/server-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongodb/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongodb/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongodb/.idea/node-mongodb.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongodb/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongodb/operations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongodb/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongodb/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongodb/simpleserver part1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongodb/simpleserver part2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongodb/simpleserver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/.idea/node-mongoose.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/models/dishes-1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/models/dishes-3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/models/dishes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/models/leadership.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/models/promotions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/server-1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/server-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/server-3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/serverForTestDishJS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/serverForTestLeadership.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node-mongoose/serverForTestPromotions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/.idea/rest-server.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/authenticate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/bin/cert.csr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/bin/certificate.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/bin/private.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/bin/www" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/models/dishes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/models/favorites.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/models/leadership.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/models/promotions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/models/user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/npm-debug.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/public/stylesheets/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/routes/dishRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/routes/favoritesRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/routes/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/routes/leaderRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/routes/promoRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/routes/users.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/routes/verify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/views/error.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/views/index.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server-passport/views/layout.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.idea/test.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/serverForTestPersistentConn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/serverForTestTransferEncoding.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conFusion/.idea/workspace.xml" afterPath="$PROJECT_DIR$/conFusion/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conFusion/package.json" afterPath="$PROJECT_DIR$/conFusion/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/rest-server/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/app.js" afterPath="$PROJECT_DIR$/rest-server/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/bin/www" afterPath="$PROJECT_DIR$/rest-server/bin/www" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/models/dishes.js" afterPath="$PROJECT_DIR$/rest-server/models/dishes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/models/leadership.js" afterPath="$PROJECT_DIR$/rest-server/models/leadership.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/models/promotions.js" afterPath="$PROJECT_DIR$/rest-server/models/promotions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/npm-debug.log" afterPath="$PROJECT_DIR$/rest-server/npm-debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/package.json" afterPath="$PROJECT_DIR$/rest-server/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/routes/dishRouter.js" afterPath="$PROJECT_DIR$/rest-server/routes/dishRouter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/routes/leaderRouter.js" afterPath="$PROJECT_DIR$/rest-server/routes/leaderRouter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/routes/promoRouter.js" afterPath="$PROJECT_DIR$/rest-server/routes/promoRouter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/routes/users.js" afterPath="$PROJECT_DIR$/rest-server/routes/users.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="NodeJS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conFusion/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conFusion/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conFusion/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/RESTful server/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/conFusion/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="y" value="-2" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conFusion-integrating-client-and-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conFusion-integrating-client-and-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conFusion-integrating-client-and-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conFusion-integrating-client-and-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conFusion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conFusion-integrating-client-and-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conFusion-integrating-client-and-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conFusion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc1463ff-4d36-4592-8e12-578595aecd6c" name="Default" comment="" />
+      <created>1482553980913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482553980913</updated>
+      <workItem from="1482553982362" duration="765000" />
+      <workItem from="1482614020947" duration="1942000" />
+      <workItem from="1485743148002" duration="1912000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4619000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-2" width="1378" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node-examples/simplerect.js" />
+    <entry file="file://$PROJECT_DIR$/node-examples/rectangle-2.js" />
+    <entry file="file://$PROJECT_DIR$/node-express/server-1.js" />
+    <entry file="file://$PROJECT_DIR$/node-express/server-2.js" />
+    <entry file="file://$PROJECT_DIR$/node-express/server-3.js" />
+    <entry file="file://$PROJECT_DIR$/node-express/server-4.js" />
+    <entry file="file://$PROJECT_DIR$/node-examples/solve-1.js" />
+    <entry file="file://$PROJECT_DIR$/node-examples/solve-2.js" />
+    <entry file="file://$PROJECT_DIR$/node-examples/solve-3.js" />
+    <entry file="file://$PROJECT_DIR$/node-express/server-4.js" />
+    <entry file="file://$PROJECT_DIR$/node-express/server-3.js" />
+    <entry file="file://$PROJECT_DIR$/node-express/server-2.js" />
+    <entry file="file://$PROJECT_DIR$/node-express/server-1.js" />
+    <entry file="file://$PROJECT_DIR$/node-examples/rectangle-1.js" />
+    <entry file="file://$PROJECT_DIR$/node-examples/rectangle-2.js" />
+    <entry file="file://$PROJECT_DIR$/node-examples/simplerect.js" />
+    <entry file="file://$PROJECT_DIR$/node-examples/solve-1.js" />
+    <entry file="file://$PROJECT_DIR$/node-examples/solve-2.js" />
+    <entry file="file://$PROJECT_DIR$/node-examples/solve-3.js" />
+    <entry file="file://$PROJECT_DIR$/RESTful server/authenticate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTful server/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTful server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTful server/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTful server/routes/leaderRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTful server/routes/promoRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTful server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTful server/routes/dishRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1991">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conFusion/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
