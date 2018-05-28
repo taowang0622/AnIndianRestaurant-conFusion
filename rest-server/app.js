@@ -16,6 +16,8 @@ var leaderRouter = require('./routes/leaderRouter');
 var favoritesRouter = require('./routes/favoritesRouter');
 var config = require('./config');
 
+
+//create an express app!!
 var app = express();
 
 //Connect to the mongoDB server!!!!!!!!!!
@@ -24,7 +26,7 @@ mongoose.connect(config.mongoUrl);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function () {
-   console.log("Connected correctly to the mongoDB server");
+    console.log("Connected correctly to the mongoDB server");
 });
 
 // view engine setup
@@ -38,9 +40,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, '../conFusion/dist'))); //Angular Client!!!!!!!!!!!!!
+app.use(express.static(path.join(__dirname, '../conFusion'))); //Angular Client!!!!!!!!!!!!!
 
-//passport config
+//passport config for authentication
 app.use(passport.initialize());
 var authenticate = require('./authenticate');
 
@@ -49,12 +51,14 @@ var authenticate = require('./authenticate');
 //'*' will match all urls
 app.all('*', function (req, res, next) {
     console.log('req start: ', req.secure, req.hostname, req.url, app.get('port'));
-    if(req.secure)    //http=====>req.secure=false    https=====>req.secure=true
+    if (req.secure)    //http=====>req.secure=false    https=====>req.secure=true
         return next();
 
-    res.redirect('https://' + req.hostname + ':' + app.get('secPort') + req.url); //Note that req.url does not include schema and hostname and port!!!!
+    //Note that req.url does not include schema and hostname and port!!!!
+    res.redirect('https://' + req.hostname + ':' + app.get('secPort') + req.url);
 });
 
+//Routing!!!
 app.use('/', index);
 app.use('/users', users);
 app.use('/dishes', dishRouter);
@@ -63,17 +67,17 @@ app.use('/leadership', leaderRouter);
 app.use('/favorites', favoritesRouter);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  var err = new Error('Not Found');
-  err.status = 404;
-  next(err);
+app.use(function (req, res, next) {
+    var err = new Error('Not Found');
+    err.status = 404;
+    next(err);
 });
 
 // error handlers
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
-    app.use(function(err, req, res, next) {
+    app.use(function (err, req, res, next) {
         res.status(err.status || 500);
         res.json({     //Since the client is ionic/angular application, easier to handler JSON string
             message: err.message,
@@ -84,7 +88,7 @@ if (app.get('env') === 'development') {
 
 // production error handler
 // no stacktraces leaked to user
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     res.json({
         message: err.message,

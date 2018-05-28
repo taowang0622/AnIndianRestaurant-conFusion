@@ -26,7 +26,8 @@ exports.facebook = passport.use(new FacebookStrategy({
             });
             user.OauthId = profile.id;
             user.OauthToken = accessToken;
-            user.save(function (err) { //ODM where M can stand for mapping or model, when model changed, use save() to map to database
+            //ODM where M can stand for mapping or model, when model changing, use save() to map to database
+            user.save(function (err) {
                 if(err) console.log("saving user ....");
                 done(null, user);
             })

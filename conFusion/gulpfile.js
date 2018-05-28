@@ -57,7 +57,7 @@ gulp.task('watch', ['browser-sync'], function() {
 
   // Watch .js files
   gulp.watch('{app/scripts/**/*.js,app/styles/**/*.css,app/**/*.html}', ['usemin']);
-    
+
   // Watch image files
   gulp.watch('app/images/**/*', ['imagemin']);
 
@@ -77,11 +77,11 @@ gulp.task('browser-sync', ['default'], function () {
          baseDir: "dist",
          index: "index.html"
       }
-   });  
-    
+   });
+
   // Watch any files in dist/, reload on change
   gulp.watch(['dist/**']).on('change', browserSync.reload);
-    
+
 });
 
 // Default task

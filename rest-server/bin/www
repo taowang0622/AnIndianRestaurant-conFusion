@@ -21,13 +21,11 @@ app.set('secPort', port+443); //443 is chosen as the default port for HTTPS!!!!!
 /**
  * Create HTTP server.
  */
-
 var server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
  */
-
 server.listen(port, function () {
     console.log("Server listening on port ", app.get('port'));
 });

@@ -55,7 +55,7 @@ router.post('/login', function (req, res, next) {
             //MongoDB stores documents in BSON format!!
             //No need to encapsulate all the info into JWT
             //just username, _id, and admin
-            var token = Verify.getToken({"username":user.username, "_id":user._id, "admin":user.admin});
+            var token = Verify.getToken({"username": user.username, "_id": user._id, "admin": user.admin});
             res.status(200).json({
                 status: 'Login successful!',
                 success: true,
@@ -79,32 +79,32 @@ router.get('/facebook', passport.authenticate('facebook'), function (req, res, n
 });
 
 router.get('/facebook/callback', function (req, res, next) {
-   passport.authenticate('facebook', function (err, user, info) {  //function(err, user, info)====>done callback in authenticate.js
-       if(err) return next(err);
+    //function(err, user, info)====>callback "done" in authenticate.js
+    passport.authenticate('facebook', function (err, user, info) {
+        if (err) return next(err);
 
-       if(!user) {
-           return res.status(401).json({
-               err: info
-           })
-       }
+        if (!user) {
+            return res.status(401).json({
+                err: info
+            })
+        }
 
-       //req.logIn() is part of passport package, and it is for building a session for persistent login!!!!!
-       req.logIn(user, function (err) {
-           if(err){
-               return res.status(500).json({
-                   err: 'Could not log in user'
-               })
-           }
-           var token = Verify.getToken(user);
-           res.status(200).json({
-               status: 'Login successful!',
-               success: true,
-               token: token
-           })
-       })
-   })(req, res, next);
+        //req.logIn() is part of passport package, and it is for building a session for persistent login!!!!!
+        req.logIn(user, function (err) {
+            if (err) {
+                return res.status(500).json({
+                    err: 'Could not log in user'
+                })
+            }
+            var token = Verify.getToken(user);
+            res.status(200).json({
+                status: 'Login successful!',
+                success: true,
+                token: token
+            })
+        })
+    })(req, res, next);
 });
-
 
 
 module.exports = router;

@@ -3,7 +3,6 @@
 angular.module('confusionApp', ['ui.router','ngResource','ngDialog'])
 .config(function($stateProvider, $urlRouterProvider) {
         $stateProvider
-        
             // route for the home page
             .state('app', {
                 url:'/',
@@ -17,7 +16,7 @@ angular.module('confusionApp', ['ui.router','ngResource','ngDialog'])
                         controller  : 'HomeController'
                     },
                     'footer': {
-                        templateUrl : 'views/footer.html',
+                        templateUrl : 'views/footer.html'
                     }
                 }
 
@@ -66,7 +65,7 @@ angular.module('confusionApp', ['ui.router','ngResource','ngDialog'])
                    }
                 }
             })
-        
+
             // route for the dishdetail page
             .state('app.favorites', {
                 url: 'favorites',
