@@ -94,3 +94,7 @@ body {
   position: absolute;
   right: 0px;
 }
+
+a{
+  cursor: pointer;
+}
